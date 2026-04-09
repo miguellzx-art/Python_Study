@@ -4,3 +4,7 @@ age = current_year - birth_year
 print(f"you were born in: {birth_year}")
 print(f"the current year is: {current_year}")
 print(f"your age is: {age}")
+if age >= 18:
+    print("you are an adult")
+else: 
+    print("you are a minor")
