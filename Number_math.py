@@ -1,0 +1,2 @@
+number = int(input("Enter a number: "))
+print(f"The number you entered is: {number}, the square of the number is: {number ** 2}, The Double of the number is: {number * 2}, The Triple of the number is: {number * 3}")
