@@ -15,3 +15,5 @@ if number <= "9999":
     print(f"Hundred: {hundred}")
     print(f"Tens: {tens}")
     print(f"Units: {units}")
+else:
+    print("Please enter a number less than or equal to 9999.")
