@@ -17,7 +17,6 @@ while True:
         break 
     
     if option in ['1', '2', '3', '4']:
-        # Using float to allow decimal numbers like 10.5
         n1 = float(input("Enter the first number: "))
         n2 = float(input("Enter the second number: "))
 
@@ -43,5 +42,4 @@ while True:
         print("\n[ERROR] Invalid option! Please try again.")
 
     input("\nPress Enter to continue...")
-    # Clear terminal logic
     os.system('cls' if os.name == 'nt' else 'clear')
