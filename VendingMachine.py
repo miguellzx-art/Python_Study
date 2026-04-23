@@ -5,6 +5,7 @@ print("[1] Soda  - $2.50")
 print("[2] Chips - $1.75")
 print("[3] Candy - $1.25")
 print("[4] Gum   - $0.50")
+print("[5] Exit")
 
 option = int(input("\nWhat would you like to buy? "))
 
@@ -20,6 +21,8 @@ elif option == 3:
 elif option == 4:
     price = 0.50
     item = "Gum"
+elif option == 5:
+    print("Thank you for using the vending machine!")
 else:
     print("Invalid option.")
 
